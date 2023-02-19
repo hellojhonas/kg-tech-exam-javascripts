@@ -18,6 +18,8 @@
     - The function assumes that there are at least two blocks in the row.
 
     Output:
+    ![kg-tech-exam-max-frog-distance](https://user-images.githubusercontent.com/91439231/219934525-b4b85043-4bd7-4999-9aa4-b6168ea66d49.PNG)
+
 
 ### Sales Problem
 Go through a sales profit data of multiple products and return the product with:
@@ -38,6 +40,8 @@ Go through a sales profit data of multiple products and return the product with:
     - If two products' sales profit are as close to 0, consider the positive profit as the one closest to zero (eg. Product A: -100, Product B: 100, return Product B)
 
     Output:
+    ![kg-tech-exam-sales](https://user-images.githubusercontent.com/91439231/219934538-6bf00f79-d350-4637-a383-7f419980872f.PNG)
+
 
 ### Longest Dynasty
 Given a chronological list of dynasties and their respective end of reign in roman numerals (MCMLXXIX), identify the longest reigning dynasty.
@@ -56,3 +60,6 @@ Given a chronological list of dynasties and their respective end of reign in rom
     - If dynastyReign is empty return "No Data"
 
     Output:
+    ![kg-tech-exam-longest-dynasty](https://user-images.githubusercontent.com/91439231/219934548-6ad9f5ed-60b9-409e-8067-69398935746f.PNG)
+
+    
