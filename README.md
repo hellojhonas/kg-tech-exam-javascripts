@@ -13,13 +13,24 @@
 
     - Create a function called max_frog_distance that takes a list of blocks as input.
     - Find the optimal starting block for each frog by keeping track of the minimum and 
-      maximum block that each frog can jump to using two pointers that move from left to right and right to left.
-    - Iterate through the blocks to calculate the maximum distance between the optimal starting blocks for each frog.
+      maximum block that each frog can jump to using two pointers that move from left to 
+      right and right to left.
+    - Iterate through the blocks to calculate the maximum distance between the optimal 
+    starting blocks for each frog.
     - Return the maximum distance between the two frogs.
     - The function assumes that there are at least two blocks in the row.
+    
+    Given: 
+    1. Given blocks = [2, 6, 8, 5], the function should return 3.  If starting from blocks[0], 
+       the first frog can stay where it is and the second frog can jump to blocks[2] 
+       (but not to blocks[3]).
+    2. Given blocks = [1, 5, 5, 2, 6], the function should return 4.  If starting from blocks[3], 
+       the first frog can jump to blocks[1], but not blocks[0], and the second frog can jump to 
+       blocks[4].
 
 ### Output:
-![kg-tech-exam-max-frog-distance](https://user-images.githubusercontent.com/91439231/219934525-b4b85043-4bd7-4999-9aa4-b6168ea66d49.PNG)
+![kg-tech-exam-max-frog-distance](https://user-images.githubusercontent.com/91439231/219936318-aa287af9-8006-40a2-b854-f09d832a40a6.PNG)
+
 
 
 ## Sales Problem
